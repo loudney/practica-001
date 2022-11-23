@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arreglos</title>
+</head>
+<body>
+    <script>
+        
+        //creacion de un arreglo  persona:4 contador :3
+        var amigos =["carlos","cesar","alex","alexis"];
+        //muestra el numero de elementos length longitud de un arreglo
+         document.write("tienes"+" "+(amigos.length)+" "+"amigos")
+       
+
+
+        //arreglo 2 
+        var amigos2=["sandra","laura","camila"];
+        //incrementa el texto fernando 
+        amigos2[amigos.length]="fernando";
+        amigos2[amigos.length]="luny";
+
+        amigos2.push ("luis","luny","sara");
+        
+        document.write (" "+amigos2+" ");
+
+
+
+        var amigos3 =["luny","toto","karen"]; //muestra las posiciones dadas 
+        amigos3.pop ();
+        document.write (amigos3[0]);
+        document.write (amigos3[1]);
+        document.write (amigos3[2]);
+        
+
+        var amigos4 =["luny","toto","karen","sandra"]; //junta los arrays 
+        var amigos5= amigos5.concat(amigos4);
+       
+         document.write(amigos4);
+         document.write(amigos5.join(" - "));//pone como separacion -
+
+         var amigos3=amigos.join("|");//pone | como separacion 
+         document.write(amigos3);
+        
+         var amigos6 =["luny","zandra","casandra"];// orden alfabetico
+          var ordenados=amigos6.sort();
+          document.write (ordenados);
+
+
+
+       
+  </script>
+</body>
+</html>
